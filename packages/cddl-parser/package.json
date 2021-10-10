@@ -1,0 +1,13 @@
+{
+  "name": "cddl-parser",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "reghex": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8"
+  }
+}
