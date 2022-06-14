@@ -1,0 +1,10 @@
+webbundle = [
+  magic: h'F0 9F 8C 90 F0 9F 93 A6',
+  version: bytes .size 4,
+  primary-url: whatwg-url,
+  section-lengths: bytes .cbor section-lengths,
+  sections: [* any ],
+  length: bytes .size 8,  ; Big-endian number of bytes in the bundle.
+]
+
+whatwg-url = tstr
